@@ -1,0 +1,56 @@
+import React from 'react';
+
+import '../styles/MyWork.scss'
+
+import hungryPhoto from '../images&videos/hungryPhoto.jpg';
+import tennisPhoto from '../images&videos/tennisPhoto.jpg'
+
+import Matrix from '../images&videos/matrix3.mp4'
+
+import animationOne from '../animations/animation'
+import transition from '../animations/transition'
+
+import { motion } from 'framer-motion';
+
+const MyWork = () => {
+    return (
+        <>
+
+            <motion.div exit="out" animate="in" initial="out" variants={animationOne} transition={transition} className="my_work">
+                <video autoPlay loop muted cover>
+                    <source src={Matrix} type="video/mp4" />
+                </video>
+                <h1>My work </h1>
+                <div className="my_work__container">
+                    <div className="my_work__project_one">
+                        <div className="my_work__description">
+
+                            <h2>It is the website of an imaginary
+                                 restaurant where you can find all the information you need about this place
+                        </h2>
+                            <a href="www.github.com" target="_blank" rel="noreferrer"><button>Source Code</button></a>
+                        </div>
+                        <div className="my_work__image">
+                            <a href="https://adamgorski56.github.io/goHungryPeople/" target="_blank" rel="noreferrer"><img src={hungryPhoto} alt="project" /></a>
+                        </div>
+
+                    </div>
+                    <div className="my_work__project_two">
+                        <div className="my_work__description">
+                            <h2>It is an app that I developed for me and my friend's needs. App checks the current
+                                 weather conditions for playing tennis in a given city.
+                            </h2>
+                            <button>Source Code</button>
+                        </div>
+                        <div className="my_work__image">
+                            <a href="https://adamgorski56.github.io/TennisWeatherApp/" target="_blank" rel="noreferrer"><img src={tennisPhoto} alt="project" /></a>
+                        </div>
+                    </div>
+                </div>
+            </motion.div>
+        </>
+    );
+}
+
+
+export default MyWork

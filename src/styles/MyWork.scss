@@ -1,0 +1,93 @@
+.my_work{
+    position: relative;
+    height:100vh;
+    overflow: hidden;
+    background-color: black;
+    z-index: 0;
+    font-family: Raleway;
+}
+
+.my_work h1 {
+    position: relative;
+    text-align: center;
+    top: 10vh;  
+    color: white;
+}
+
+.my_work__container{
+    position: relative;
+    width: 100%;
+    top: 17vh;
+    left: 50%;
+    transform: translateX(-26%);
+    height: 50%;
+}
+.my_work__project_one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:50%;
+    height: 50%;
+    padding:5vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    
+}
+.my_work__project_two{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    width:50%;
+    height: 50%;
+    padding:5vh;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.my_work__project_one .my_work__description{
+    width:35%;
+    padding-right: 10vh;
+    color:white;
+    font-size: 15px;
+   
+}
+.my_work__project_two .my_work__description{
+    width:35%;
+    padding-left: 10vh;
+    color:white;
+    font-size: 15px;
+}
+.my_work__description button{
+    position: relative;
+    left:50%;
+    transform: translateX(-50%);  
+    margin-top: 4vh;
+    font-size: 24px;
+    background: rgba(255, 255, 255, 0);
+    padding: 12px 20px 12px 20px;
+    color: white;
+    border: 2px solid rgb(3, 187, 3);
+    border-radius: 30px;
+    transition: .4s ease-out;
+    outline:none;
+    
+}
+
+.my_work__description button:hover{
+    
+    color: black;
+    background-color:rgb(3, 187, 3);
+    transition: all 0.4s ease-out;
+      padding: 12px 20px 12px 20px;
+}
+
+.my_work__image{
+    transition: all 0.3s ease-out;
+    width:35%;
+    transform: scale(1.3); 
+}
+.my_work__image:hover{
+    filter: brightness(1.5);
+    transform: scale(1.4); 
+}
+.my_work__image img{ 
+    max-width:100%;  
+}

@@ -1,0 +1,53 @@
+.who_i_am{
+    color:white;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:100%;
+    height: 50%;
+    padding-top:8vh;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.who_i_am__container{
+    position: relative;
+    text-align: center;
+    color:white;
+    z-index: 1;
+   
+    width:50%;
+    height: 100%;
+    padding:5vh;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.who_i_am__container h1{
+    padding: 3vh;
+}
+.who_i_am__container h1 i{
+    padding-left: 2vh;
+}
+.who_i_am__container h2{
+    padding: 2vh;
+}
+
+.who_i_am__container p{
+    padding: 2vh;
+}
+.who_i_am__container h3{
+    padding-top: 3vh;
+}
+
+
+.who_i_am__container ul{
+    margin: 3vh;
+    list-style-type: none;
+    text-align: left;
+}
+.who_i_am__container ul span{
+    font-family: Matrix-MZ4P;
+    color:rgb(3, 187, 3);
+}
+.who_i_am__container ul li{
+    margin:1vh;
+    padding-left: 20%;
+}
