@@ -20,7 +20,10 @@ const HireMe = () => {
 
                 <p className="message">I need this job!</p>
 
-                <NavLink to="/contact"><button className="hire_me__contact_btn">Contact me</button></NavLink>
+                <NavLink to="/contact"><motion.button
+                    whileHover={{ scale: 1.1, boxShadow: "0px 0px 8px 0px rgb(3, 187, 3)", }}
+
+                    className="hire_me__contact_btn">Contact me</motion.button></NavLink>
             </div>
         </motion.div>
     );

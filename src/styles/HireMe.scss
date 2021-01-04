@@ -26,9 +26,19 @@
     font-weight: bold;
 }
 .hire_me a {
-    position: relative;
-    color:white;
-    background-color: white;
-    height: 100px;
-    width: 100px;
+    width: auto;
  }
+
+ .hire_me__contact_btn{
+    position: relative;
+    margin-top: 4vh;
+    font-size: 24px;
+    background: rgba(255, 255, 255, 0);
+    padding: 12px 20px 12px 20px;
+    color: white;
+    border: 2px solid rgb(3, 187, 3);
+    border-radius: 30px;
+    outline:none;
+    cursor: pointer;
+    
+}

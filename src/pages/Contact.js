@@ -30,7 +30,7 @@ const Contact = () => {
                     <div className="contact__info_content_container">
                         <span className="contact__email"><i class="fa fa-envelope-open"></i>adamgorski1256@gmail.com</span>
                         <span className="contact__phone"><i class="fa fa-phone"></i>+44 2710 88 35</span>
-                        <span className="contact__social_media"><i class="fab fa-linkedin"></i><i class="fab fa-github"></i></span>
+                        <span className="contact__social_media"> <a href="https://www.linkedin.com/in/adam-g%C3%B3rski-a58b05202/" target="_blank" rel="noreferrer"><i class="fab fa-linkedin"></i></a><a href="https://github.com/AdamGorski56/" target="_blank" rel="noreferrer"><i class="fab fa-github"></i></a></span>
                     </div>
                 </div>
                 <div className="contact__message_container">

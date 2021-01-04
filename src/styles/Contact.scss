@@ -121,6 +121,7 @@
 .contact__social_media{
     position: relative;
     left:20px;
+    
 
 }
 .contact__social_media i{
@@ -128,6 +129,7 @@
     transform: scale(1.2);
     transition: 0.2s ease-in-out;
     cursor: pointer;
+    color:white;
 }
 .contact__social_media i:hover{
     color:rgb(3, 187, 3);

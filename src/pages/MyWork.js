@@ -28,7 +28,7 @@ const MyWork = () => {
                             <h2>It is the website of an imaginary
                                  restaurant where you can find all the information you need about this place
                         </h2>
-                            <a href="www.github.com" target="_blank" rel="noreferrer"><button>Source Code</button></a>
+                            <a href="https://github.com/AdamGorski56/goHungryPeople" target="_blank" rel="noreferrer"><button>Source Code</button></a>
                         </div>
                         <div className="my_work__image">
                             <a href="https://adamgorski56.github.io/goHungryPeople/" target="_blank" rel="noreferrer"><img src={hungryPhoto} alt="project" /></a>
@@ -40,7 +40,7 @@ const MyWork = () => {
                             <h2>It is an app that I developed for me and my friend's needs. App checks the current
                                  weather conditions for playing tennis in a given city.
                             </h2>
-                            <button>Source Code</button>
+                            <a href="https://github.com/AdamGorski56/TennisWeatherApp/tree/master" target="_blank" rel="noreferrer"><button>Source Code</button></a>
                         </div>
                         <div className="my_work__image">
                             <a href="https://adamgorski56.github.io/TennisWeatherApp/" target="_blank" rel="noreferrer"><img src={tennisPhoto} alt="project" /></a>
