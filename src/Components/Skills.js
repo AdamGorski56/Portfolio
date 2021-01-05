@@ -17,10 +17,11 @@ import transition from '../animations/transition'
 const Skills = () => {
 
     return (
-        <motion.div exit="out" animate="in" initial="initial" variants={animationTwo} transition={transition} className="skills">
-            <div className="skills__container">
-                <h1> My skills</h1>
-
+        <motion.div
+            exit="out" animate="in" initial="initial" variants={animationTwo} transition={transition}
+            className="skills">
+            <h1> My skills</h1>
+            <div className="skills__images_container">
                 <h2>Front end</h2>
                 <div className="skills__images">
                     <ul>
@@ -38,12 +39,20 @@ const Skills = () => {
                         <li><img src={git} alt="git" /></li>
                     </ul>
                 </div>
-                <p>I enjoy to solve problems. If I don’t know how to do something I am looking for a solution on
-                 Stack Overflow, Google or docs. I have very good communication skills.
-                  I am aware of the fact that soft skills are very important in everyday developer’s life.
-                        I have basic understanding of Scrum and Agile methodologies.</p>
-                <p>I'm constantly learning and improving my skills. It's FUN!</p>
+            </div>
+            <div className="skills__text_container">
+                <p>&emsp;&emsp;&emsp;In my work, I use HTML, CSS, (SCSS) which are absolutely essential.
+                     I also have a strong foundation in JavaScript and React, in which I can write not
+                      too complicated applications. All my projects are responsive in order to be user-friendly.
+                </p>
 
+                <p>&emsp;&emsp;&emsp;I am very motivated and enjoy to solve problems. If I don’t know how to do something I am looking for a solution on
+                Stack Overflow, Google or docs. I have good communication skills.
+                I am aware of the fact that soft skills are very important in everyday developer’s life.
+                    I have basic understanding of Scrum and Agile methodologies.
+                </p>
+
+                <p>I'm constantly learning and improving my skills. It's FUN!</p>
             </div>
         </motion.div>
     );

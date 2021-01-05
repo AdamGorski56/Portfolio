@@ -7,25 +7,46 @@
     color:white;
     width: 100%;
 }
-.skills__container{
+.skills h1{
+    padding: 3vh;
+    position: absolute;
+    left:50%;
+    transform: translate(-50%);
+    height:10vh
+   
+}
+.skills__images_container{
     position: relative;
     background-color: rgba(0, 0, 0, 0.5);
-    width: 60%;
-    margin-top:1vh;
+    width: 40%;
+    margin-top:10vh;
+    height: 60vh;
+    margin-right: 3vw;
 
 }
-.skills__container h1{
-    padding: 3vh;
+
+.skills h2{
+    margin-top: 7vh;
 }
-.skills__container h2{
-    margin-bottom: 2vh;
+.skills__text_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:40%;
+    margin-top: 10vh;
+    margin-bottom:2vh;
+    height: 60vh;
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-family: Raleway;
 }
-.skills__container p{
+.skills__text_container p{
     font-size: 24px;
-    margin: 2vh;
-    width: 50%;
-    margin: auto;
+    margin: 1vh;
+    width: 80%;
 }
+
 .skills__images{
     z-index: 1;
     

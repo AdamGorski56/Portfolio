@@ -37,8 +37,9 @@ const MyWork = () => {
                     </div>
                     <div className="my_work__project_two">
                         <div className="my_work__description">
-                            <h2>It is an app that I developed for me and my friend's needs. App checks the current
-                                 weather conditions for playing tennis in a given city.
+                            <h2>It is an application that I created for me and for the needs of my friend.
+                                 The application shows the current weather conditions and will tell you if there is a good time
+                                  to play tennis in the given city.
                             </h2>
                             <a href="https://github.com/AdamGorski56/TennisWeatherApp/tree/master" target="_blank" rel="noreferrer"><button>Source Code</button></a>
                         </div>

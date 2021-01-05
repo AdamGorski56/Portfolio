@@ -16,7 +16,8 @@ const HireMe = () => {
                     to build digital products that positively impact people lives. I belive in always exceeding expectations
                     and continuosly learning to be the best at my craft.
                 </p>
-
+                <p className="text">Do you need someone with a passion for coding in your company, someone You can rely on? It's me!
+                </p>
 
                 <p className="message">I need this job!</p>
 

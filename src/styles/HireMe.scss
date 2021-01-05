@@ -4,24 +4,28 @@
     text-align: center;
     color:white;
     width: 100%;
+    font-family: Raleway;
+    margin-top: 2vh;
+    
 }
 .hire_me__container{
     position: relative;
-    margin: 10vh;
+    background-color: rgba(0, 0, 0, 0.5);
     width:50%;
+    padding: 3vh
 }
 .hire_me__container h1{
     margin: 3vh;
 }
 .hire_me__container .text{
-    margin: 10vh;
-    font-family: Raleway;
-    letter-spacing: 2px;
+    margin: 7vh;
+    font-size: 24px;
+    letter-spacing: 3px;
     font-weight: bold;
 }
 .hire_me__container .message{
     margin: 2vh;
-    font-family: Raleway;
+    font-size: 20px;
     letter-spacing: 2px;
     font-weight: bold;
 }
@@ -31,7 +35,6 @@
 
  .hire_me__contact_btn{
     position: relative;
-    margin-top: 4vh;
     font-size: 24px;
     background: rgba(255, 255, 255, 0);
     padding: 12px 20px 12px 20px;

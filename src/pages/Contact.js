@@ -35,7 +35,7 @@ const Contact = () => {
                 </div>
                 <div className="contact__message_container">
                     <p>Feel free to contact me</p>
-                    <a href="mailto:adamgorski1256@gmail.com"><button className="contact__email_btn">Send Email</button></a>
+                    <a href="mailto:adamgorski1256@gmail.com"><motion.button whileHover={{ scale: 1.1, boxShadow: "0px 0px 8px 0px rgb(3, 187, 3)", }} className="contact__email_btn">Send Email</motion.button></a>
                 </div>
 
             </div>
