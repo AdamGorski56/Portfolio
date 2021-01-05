@@ -24,7 +24,7 @@
 }
 .my_work__project_one{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     width:50%;
     height: 50%;
@@ -35,26 +35,21 @@
 .my_work__project_two{
     display: flex;
     flex-direction: row-reverse;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     width:50%;
     height: 50%;
     padding:5vh;
     background-color: rgba(0, 0, 0, 0.5);
 }
-.my_work__project_one .my_work__description{
+.my_work__project_one .my_work__description, .my_work__project_two .my_work__description{
     width:35%;
-    padding-right: 10vh;
     color:white;
-    font-size: 15px;
+    font-size: 13px;
+    letter-spacing: 1px;
    
 }
-.my_work__project_two .my_work__description{
-    width:35%;
-    padding-left: 10vh;
-    color:white;
-    font-size: 15px;
-}
+
 .my_work__description button{
     position: relative;
     left:50%;

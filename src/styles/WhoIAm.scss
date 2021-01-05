@@ -42,7 +42,7 @@
 
 
 .who_i_am__container ul{
-    margin: 3vh;
+    margin: 4vh;
     list-style-type: none;
     text-align: left;
 }
@@ -53,4 +53,8 @@
 .who_i_am__container ul li{
     margin:1vh;
     padding-left: 15%;
+}
+.who_i_am__message{
+    padding:3vh;
+    border-bottom: 2px solid rgb(3, 187, 3);
 }

@@ -6,7 +6,8 @@ import '../styles/WhoIAm.scss'
 
 const WhoIAm = () => {
     return (
-        <motion.div exit="out" animate="in" initial="initial" variants={animationTwo} transition={transition} className="who_i_am">
+        <motion.div exit="out" animate="in" initial="initial" variants={animationTwo} transition={transition}
+            className="who_i_am">
 
             <div className="who_i_am__container">
 
@@ -14,7 +15,7 @@ const WhoIAm = () => {
                 <h2>a front-end developer based in Folkestone, Kent, UK. My passion is creating websites
                  and programming in general. Coding has become my love!</h2>
 
-                <p>That feeling when your code is working fine ... beautiful!
+                <p>That feeling when You run your code and is working fine ... beautiful!
                 </p>
                 <h3>3 random facts about me</h3>
                 <ul>
@@ -22,7 +23,7 @@ const WhoIAm = () => {
                     <li><span>II. &nbsp;</span> I am a positive person who thinks anything is possible and enjoy reading books</li>
                     <li><span>III.&nbsp;</span>I love eating delicious food and making others happy by cooking for them</li>
                 </ul>
-                <p>Nice to meet You!</p>
+                <p className="who_i_am__message">Nice to meet You!</p>
             </div>
         </motion.div>
     );
