@@ -1,6 +1,6 @@
 .navigation{
     position: fixed;
-    bottom: 0;
+    top: 0;
     left:0;
     color:rgb(3, 187, 3);
     width: 100px;
@@ -92,4 +92,13 @@
   color: rgb(3, 187, 3);
   transition: all 0.3s ease-out;
   
+}
+
+//responsivness
+
+@media only screen and (max-width: 535px){
+  .navigation{
+    width: 70px;
+  }
+    
 }

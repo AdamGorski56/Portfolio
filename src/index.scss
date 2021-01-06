@@ -6,6 +6,7 @@
 body{
   background-color: black;
   overflow: hidden;
+  height:100%;
 }
 @font-face {
     font-family: 'Matrix-MZ4P';
@@ -41,5 +42,27 @@ video {
   }
   100% {
     opacity: 0;
+  }
+}
+// responsivness
+
+@media only screen and (max-width: 1023px){
+  body{
+    overflow: visible;
+ }
+  video {
+
+    position: fixed;
+    right: 0; 
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    width: auto; 
+    height: auto; 
+    z-index: 0;
+    background-size: cover;
+    overflow: visible;
+    animation: opacity 59s infinite;
+   
   }
 }
