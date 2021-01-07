@@ -102,15 +102,13 @@
 
 //responsiveness
 @media only screen and (max-width: 1240px){
+    
     .my_work__project_one .my_work__description, .my_work__project_two .my_work__description{
-
         font-size: 12px;
-
     }
     .my_work__description button{
         margin-top: 2vh;
-        font-size: 18px;
-       
+        font-size: 18px;  
     }
     .my_work__project_one .my_work__image{
         margin-right: 80px;
