@@ -28,7 +28,7 @@ const MyWork = () => {
                             <h2>It is the website of an imaginary
                                  restaurant where you can find all the information you need about this place
                         </h2>
-                            <a href="https://github.com/AdamGorski56/goHungryPeople" target="_blank" rel="noreferrer"><button>Source Code</button></a>
+                            <a href="https://github.com/AdamGorski56/goHungryPeople" target="_blank" rel="noreferrer"><motion.button whileHover={{ scale: 1.1, boxShadow: "0px 0px 8px 0px rgb(3, 187, 3)", }}>Source Code</motion.button></a>
                         </div>
                         <div className="my_work__image">
                             <a href="https://adamgorski56.github.io/goHungryPeople/" target="_blank" rel="noreferrer"><img src={hungryPhoto} alt="project" /></a>
@@ -41,7 +41,7 @@ const MyWork = () => {
                                  The app shows the current weather conditions and will tell you if there is a good time
                                   to play tennis in the given city.
                             </h2>
-                            <a href="https://github.com/AdamGorski56/TennisWeatherApp/tree/master" target="_blank" rel="noreferrer"><button>Source Code</button></a>
+                            <a href="https://github.com/AdamGorski56/TennisWeatherApp/tree/master" target="_blank" rel="noreferrer"><motion.button whileHover={{ scale: 1.1, boxShadow: "0px 0px 8px 0px rgb(3, 187, 3)", }}>Source Code</motion.button></a>
                         </div>
                         <div className="my_work__image">
                             <a href="https://adamgorski56.github.io/TennisWeatherApp/" target="_blank" rel="noreferrer"><img src={tennisPhoto} alt="project" /></a>
