@@ -48,3 +48,34 @@
     left: 2vh;
   }
 
+ // responsiveness
+ @media only screen and (max-width: 768px){
+    .greeting{
+      font-size: 18px;
+    }
+    .greeting__btnOutline{
+      font-size: 18px;;
+      
+    }
+}
+@media only screen and (max-width: 768px){
+  .greeting{
+    font-size: 18px;
+  }
+  .greeting__btnOutline{
+    font-size: 16px;;
+      background: rgba(255, 255, 255, 0);
+      padding: 16px 25px 16px 20px;
+      color: white;
+      border: 2px solid rgb(3, 187, 3);
+      border-radius: 30px;
+      background: linear-gradient(to left, rgba(255, 255, 255, 0) 50%, rgb(3, 187, 3) 50%) right;
+      background: linear-gradient(to right,  50%, rgb(3, 187, 3) 50%,rgba(255, 255, 255, 0) 50%) left;
+      background-size: 200%;
+      transition: .4s ease-out;
+      outline:none
+  }
+  .greeting__btnOutline i{
+    left: 1vh;;
+  }
+}
