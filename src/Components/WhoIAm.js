@@ -30,7 +30,7 @@ const WhoIAm = () => {
                         </ul>
                     </div>
                 </div>
-                <p className="who_i_am__message">Nice to meet You!</p>
+                <div className="who_i_am__regards"><p>Nice to meet You!</p></div>
             </div>
         </motion.div >
     );
