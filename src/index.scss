@@ -1,3 +1,23 @@
+$shadow-color-light: rgb(3, 187, 3);
+$shadow-color:rgb(3, 187, 3);
+
+@keyframes neon {
+    0% {
+      text-shadow: -1px -1px 1px $shadow-color-light, -1px 1px 1px $shadow-color-light, 1px -1px 1px $shadow-color-light, 1px 1px 1px $shadow-color-light,
+      0 0 3px $shadow-color-light, 0 0 10px $shadow-color-light, 0 0 20px $shadow-color-light,
+      0 0 30px $shadow-color, 0 0 40px $shadow-color, 0 0 50px $shadow-color, 0 0 70px $shadow-color, 0 0 100px $shadow-color, 0 0 200px $shadow-color;
+    }
+    50% {
+      text-shadow: -1px -1px 1px $shadow-color-light, -1px 1px 1px $shadow-color-light, 1px -1px 1px $shadow-color-light, 1px 1px 1px $shadow-color-light,
+      0 0 5px $shadow-color-light, 0 0 15px $shadow-color-light, 0 0 25px $shadow-color-light,
+      0 0 40px $shadow-color, 0 0 50px $shadow-color, 0 0 60px $shadow-color, 0 0 80px $shadow-color, 0 0 110px $shadow-color, 0 0 210px $shadow-color;
+    }
+    100% {
+      text-shadow: -1px -1px 1px $shadow-color-light, -1px 1px 1px $shadow-color-light, 1px -1px 1px $shadow-color-light, 1px 1px 1px $shadow-color-light,
+      0 0 3px $shadow-color-light, 0 0 10px $shadow-color-light, 0 0 20px $shadow-color-light,
+      0 0 30px $shadow-color, 0 0 40px $shadow-color, 0 0 50px $shadow-color, 0 0 70px $shadow-color, 0 0 100px $shadow-color, 0 0 200px $shadow-color;
+    }
+  }
 * {
     margin: 0;
     padding:0;
@@ -12,7 +32,7 @@ body{
     font-family: 'Matrix-MZ4P';
     src: local('Matrix-MZ4P'), url(./fonts/Matrix-MZ4P.ttf) format('opentype');
   }
-  
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 video {

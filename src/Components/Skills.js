@@ -43,18 +43,18 @@ const Skills = () => {
                     </div>
                 </div>
                 <div className="skills__text_container">
-                    <p>&emsp;&emsp;&emsp;In my work, I use HTML, CSS, (SCSS) which are absolutely essential.
+                    <span>&emsp;&emsp;&emsp;In my work, I use HTML, CSS, (SCSS) which are absolutely essential.
                         I also have a strong foundation in JavaScript and React, in which I can write not
                         too complicated applications. All my projects are responsive in order to be user-friendly.
-                    </p>
+                    </span>
 
-                    <p>&emsp;&emsp;&emsp;I am very motivated and enjoy to solve problems. If I don’t know how to do something I am looking for a solution on
+                    <span>&emsp;&emsp;&emsp;I am very motivated and enjoy to solve problems. If I don’t know how to do something I am looking for a solution on
                     Stack Overflow, Google or docs. I have good communication skills.
                     I am aware of the fact that soft skills are very important in everyday developer’s life.
                         I have basic understanding of Scrum and Agile methodologies.
-                    </p>
+                    </span>
 
-                    <p>I'm constantly learning and improving my skills. It's FUN!</p>
+                    <span>I'm constantly learning and improving my skills. It's FUN!</span>
                 </div>
             </div>
         </motion.div>

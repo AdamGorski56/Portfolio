@@ -12,9 +12,9 @@ const WhoIAm = () => {
             <div className="who_i_am__container">
 
                 <div className="who_i_am__message_container">
-                    <motion.div className="who_i_am__message_welcome">Hello!</motion.div>
+                    <div className="who_i_am__message_welcome">Hello!</div>
                     <div className="who_i_am__message_text">
-                        <h1>My name is Adam Gorski <i class="fa fa-smile"></i></h1>
+                        <h1>My name is Adam Gorski <i class="fa fa-grin-alt"></i></h1>
                         <h2>a front-end developer based in Folkestone, Kent, UK. My passion is creating websites
                  and programming in general. Coding has become my love!</h2>
                     </div>

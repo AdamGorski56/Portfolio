@@ -46,9 +46,9 @@
     font-family: Raleway;
     margin-right: 10vw;
 }
-.skills__text_container p{
-    font-size: 24px;
-    margin: 1vh;
+.skills__text_container span{
+    font-size: 20px;
+    padding: 2vh;
     width: 80%;
 }
 
@@ -92,9 +92,9 @@
         margin-bottom:2vh;
      
     }
-    .skills__text_container p{
+    .skills__text_container span{
         font-size: 18px;
-        margin-top: 6vh;
+        
     }
     .skills__images img{
         width: 80px;
@@ -105,10 +105,9 @@
     .skills__container{
         justify-content: space-around;
     }
-    .skills__text_container p{
+    .skills__text_container span{
         position: relative;
-        margin-top: 3vh;
-        margin-bottom:3vh;
+        margin-bottom:2vh;
         
     }
 }
@@ -121,7 +120,7 @@
         width:50vh;
         flex-wrap: wrap;
     }
-    .skills__text_container p{
+    .skills__text_container span{
         font-size: 16px;
        
     }

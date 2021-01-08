@@ -1,3 +1,5 @@
+  
+
 .who_i_am{
     color:white;
     z-index: 1;
@@ -8,7 +10,7 @@
     height: 100%;
     padding-top:3vh;
     background-color: rgba(0, 0, 0, 0.5);
-    font-family: Raleway;
+    font-family: 'Playfair Display';
     letter-spacing: 1px;
 }
 .who_i_am__container{
@@ -28,9 +30,11 @@
     font-size: 77px;
     transform: rotate(-30deg) translateY(10%);
     font-family: 'Pacifico';
-    color:rgb(3, 187, 3);
     margin-left: 100px;  
+    color: white;
+    animation: neon 3s infinite;
 }
+
 .who_i_am__message_text{
     margin-bottom: 3vh;
     
@@ -40,6 +44,7 @@
 }
 .who_i_am__message_text h1 i{
     padding-left: 2vh;
+    
 }
 .who_i_am__message_text h2{
     padding: 2vh;
@@ -51,32 +56,32 @@
     flex-direction: row-reverse;
     width: 80%;
     margin-top: 10vh;
+    
 }
 .who_i_am__facts_signs{
     position: relative;
     transform: translateX(-7vh);
     margin-left: 20px; 
+    color: white;
+    animation: neon 3s infinite;
 }
 .who_i_am__facts_signs #sign1{
     position: relative;
     font-size: 100px;
     font-family: 'Pacifico';
     transform: rotate(50deg) ;
-    color:rgb(3, 187, 3);
 }
 .who_i_am__facts_signs #sign2{
     position: absolute;
     font-size: 100px;
     font-family: 'Pacifico';
-    transform: rotate(50deg) translate( 20px, -50px) ;
-    color:rgb(3, 187, 3);
+    transform: rotate(50deg) translate( 20px, -50px) ;  
 }
 .who_i_am__facts_signs #sign3{
     position: absolute;;
     font-size: 100px;
     font-family: 'Pacifico';
     transform: rotate(100deg) translate( 50px, -50px) ;
-    color:rgb(3, 187, 3);
 }
 
 .who_i_am__facts_content{
@@ -111,12 +116,11 @@
     left:50%;
     transform: translateX(-50%);
     padding:3vh;
-
 }
 .who_i_am__regards p{
     position: relative;
     top:10px;
-    border-bottom: 3px solid rgb(3, 187, 3);;
+    font-size: 24px;
     }
 
 //responsiveness
