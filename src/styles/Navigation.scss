@@ -2,7 +2,7 @@
     position: fixed;
     top: 0;
     left:0;
-    color:rgb(3, 187, 3);
+    color:rgb(0, 247, 0); 
     width: 100px;
     height:100vh;
     background-color:rgb(5, 15, 9);
@@ -16,7 +16,7 @@
     text-align: center;
     left:25%;
     position: relative;
-    color:rgb(3, 187, 3);
+    color:rgb(0, 247, 0); 
     top:10vh;
     text-decoration: none;
   }
@@ -45,7 +45,7 @@
 
   }
   .navigation__icons i:hover{
-    color:rgb(3, 187, 3);
+    color:rgb(0, 247, 0); 
 
   }
   .navigation__link{
@@ -57,12 +57,12 @@
   }
 
   .navigation .active{
-    color:rgb(3, 187, 3);
+    color:rgb(0, 247, 0);
   }
   
   .navigation .navigation__link:hover:after {
     opacity: 1;
-    color: rgb(3, 187, 3);
+    color:rgb(0, 247, 0); 
   }
   .navigation .navigation__link:first-child:after {
     content:"ABOUT ME";
@@ -89,7 +89,7 @@
 }
 .navigation .navigation__link:hover i {
   opacity: 0;
-  color: rgb(3, 187, 3);
+  color:rgb(0, 247, 0); 
   transition: all 0.3s ease-out;
   
 }

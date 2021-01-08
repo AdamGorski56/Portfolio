@@ -43,7 +43,7 @@ const Skills = () => {
                     </div>
                 </div>
                 <div className="skills__text_container">
-                    <span>&emsp;&emsp;&emsp;In my work, I use HTML, CSS, (SCSS) which are absolutely essential.
+                    <span> &emsp;&emsp;&emsp;In my work, I use HTML, CSS, (SCSS) which are absolutely essential.
                         I also have a strong foundation in JavaScript and React, in which I can write not
                         too complicated applications. All my projects are responsive in order to be user-friendly.
                     </span>

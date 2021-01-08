@@ -48,7 +48,7 @@
     height:55vh;
     width: 55vw;
     margin-top:40px;
-    border: 3px solid rgb(3, 187, 3);
+    border: 3px solid rgb(0, 247, 0); 
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 30px;
     margin-left: 3vw;   
@@ -71,7 +71,7 @@
     background-color: rgba(255, 255, 255, 0);
     padding: 12px 20px 12px 20px;
     color: white;
-    border: 2px solid rgb(3, 187, 3);
+    border: 2px solid rgb(0, 247, 0); 
     border-radius: 30px;
     outline:none;
     cursor: pointer;
@@ -82,7 +82,7 @@
     font-size: 20px;
 }
 .contact__email:hover i{
-    color:rgb(3, 187, 3);
+    color:rgb(0, 247, 0);
     transition: .2s ease-out;
 }
 .contact__phone{
@@ -101,7 +101,7 @@
     color:white;
 }
 .contact__social_media i:hover{
-    color:rgb(3, 187, 3);
+    color:rgb(0, 247, 0); 
     transform:scale(1.7) rotate(360deg);
     transition: 0.1s ease-in-out; 
 }

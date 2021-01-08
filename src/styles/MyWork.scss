@@ -4,7 +4,7 @@
     overflow: hidden;
     background-color: black;
     z-index: 0;
-    font-family: Raleway;
+    font-family: 'Playfair Display';
 }
 
 .my_work h1 {
@@ -12,6 +12,7 @@
     text-align: center;
     top: 10vh;  
     color: white;
+    animation: neon 3s infinite;
 }
 
 .my_work__container{
@@ -71,7 +72,7 @@
     background: rgba(255, 255, 255, 0);
     padding: 12px 20px 12px 20px;
     color: white;
-    border: 2px solid rgb(3, 187, 3);
+    border: 2px solid rgb(0, 247, 0);
     border-radius: 30px;
     transition: .3s ease-out;
     outline:none;
@@ -79,7 +80,7 @@
 
 .my_work__description button:hover{
     color: black;
-    background-color:rgb(3, 187, 3);
+    background-color:rgb(0, 247, 0);
     transition: all 0.4s ease-out;
       padding: 12px 20px 12px 20px;
       cursor: pointer;
@@ -151,7 +152,7 @@
         width: 55%;
     }
     .my_work__project_two .my_work__image img{
-        border: 1px dotted green;
+        border: 1px dotted rgb(0, 247, 0);
     }
     
     .my_work__project_two .my_work__description{
