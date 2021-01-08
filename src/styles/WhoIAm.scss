@@ -14,30 +14,94 @@
 .who_i_am__container{
     position: relative;
     text-align: center;
+    
     color:white;
     z-index: 1;
-   
-    width:50%;
     height: 100%;
+    width: 80%;
     padding:5vh;
     background-color: rgba(0, 0, 0, 0.5);
 }
-.who_i_am__container h1{
+.who_i_am__message_container{
+    display: flex;
+    
+    
+    
+}
+.who_i_am__message_welcome{
+    font-size: 77px;
+    transform: rotate(-30deg) translateY(10%);
+    font-family: 'Pacifico';
+    color:rgb(3, 187, 3);
+    margin-left: 100px;
+    
+    
+}
+.who_i_am__message_text{
+    margin-bottom: 3vh;
+    
+}
+.who_i_am__message_text h1{
     padding: 3vh;
 }
-.who_i_am__container h1 i{
+.who_i_am__message_text h1 i{
     padding-left: 2vh;
 }
-.who_i_am__container h2{
+.who_i_am__message_text h2{
     padding: 2vh;
     line-height: 32px;
 }
 
-.who_i_am__container p{
-    padding: 2vh;
+.who_i_am__facts_container{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 80%;
+    margin-top: 10vh;
+    
+}
+.who_i_am__facts_signs{
+    position: relative;
+    transform: translateX(-7vh);
+    margin-left: 20px;
+    
+    
+}
+.who_i_am__facts_signs #sign1{
+    position: relative;
+    font-size: 100px;
+    font-family: 'Pacifico';
+    transform: rotate(50deg) ;
+    color:rgb(3, 187, 3);
+}
+.who_i_am__facts_signs #sign2{
+    position: absolute;
+    font-size: 100px;
+    font-family: 'Pacifico';
+    transform: rotate(50deg) translate( 20px, -50px) ;
+    color:rgb(3, 187, 3);
+}
+.who_i_am__facts_signs #sign3{
+    position: absolute;;
+    font-size: 100px;
+    font-family: 'Pacifico';
+    transform: rotate(100deg) translate( 50px, -50px) ;
+    color:rgb(3, 187, 3);
+}
+
+.who_i_am__facts_content{
+   flex-grow: 1;
+   
+   margin-left: 100px;
+   
 }
 .who_i_am__container h3{
     padding-top: 3vh;
+    
+    position:absolute;
+    left:50%;
+    transform: translate( -50%, -150%);
+
+    
 }
 
 
@@ -47,14 +111,24 @@
     text-align: left;
 }
 .who_i_am__container ul span{
+    position: absolute;
     font-family: Matrix-MZ4P;
     color:rgb(3, 187, 3);
+    
 }
 .who_i_am__container ul li{
     margin:1vh;
-    padding-left: 15%;
+    font-size: 16px;
+    margin-left: 35px;
+   
+    
 }
 .who_i_am__message{
+    position: absolute;
+    left:50%;
+    transform: translateX(-50%);
     padding:3vh;
+    
+
     border-bottom: 2px solid rgb(3, 187, 3);
 }

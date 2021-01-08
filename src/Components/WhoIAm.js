@@ -11,21 +11,28 @@ const WhoIAm = () => {
 
             <div className="who_i_am__container">
 
-                <h1>My name is Adam Gorski <i class="fa fa-smile"></i></h1>
-                <h2>a front-end developer based in Folkestone, Kent, UK. My passion is creating websites
+                <div className="who_i_am__message_container">
+                    <motion.div className="who_i_am__message_welcome">Hello!</motion.div>
+                    <div className="who_i_am__message_text">
+                        <h1>My name is Adam Gorski <i class="fa fa-smile"></i></h1>
+                        <h2>a front-end developer based in Folkestone, Kent, UK. My passion is creating websites
                  and programming in general. Coding has become my love!</h2>
-
-                <p>That feeling when You run your code and is working fine ... beautiful!
-                </p>
-                <h3>3 random facts about me</h3>
-                <ul>
-                    <li><span>I. &nbsp;&nbsp;</span>I like sports, which helps me keep my body and mind in good shape </li>
-                    <li><span>II. &nbsp;</span> I am a positive person who thinks anything is possible and enjoy reading books</li>
-                    <li><span>III.&nbsp;</span>I love eating delicious food and making others happy by cooking for them</li>
-                </ul>
+                    </div>
+                </div>
+                <div className="who_i_am__facts_container">
+                    <div className="who_i_am__facts_signs"><span id="sign1">?</span><span id="sign2">?</span><span id="sign3">?</span></div>
+                    <div className="who_i_am__facts_content">
+                        <h3>3 random facts about me</h3>
+                        <ul>
+                            <span>I.&nbsp;&nbsp; </span><li>I like sports, which helps me keep my body and mind in good shape </li>
+                            <span>II.&nbsp; </span><li> I am a positive person who thinks anything is possible and enjoy reading books</li>
+                            <span>III.&nbsp;</span> <li>I love eating delicious food and making others happy by cooking for them</li>
+                        </ul>
+                    </div>
+                </div>
                 <p className="who_i_am__message">Nice to meet You!</p>
             </div>
-        </motion.div>
+        </motion.div >
     );
 }
 
