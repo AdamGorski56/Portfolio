@@ -1,6 +1,19 @@
 $shadow-color-light: rgb(3, 187, 3);
 $shadow-color:rgb(3, 187, 3);
+@keyframes blink {
+  20%,
+  24%,
+  55% {
+    color: #111;
+    text-shadow: none;
+  }
 
+  0%,19%,21%,23%,25%,54%,56%,100% {
+   color: white;
+    
+      text-shadow: 0 0 9px rgb(0, 247, 0), 0 0 19px rgb(0, 247, 0), 0 0 24px rgb(0, 247, 0), 0 0 46px rgb(0, 247, 0), 0 0 66px rgb(0, 247, 0), 0 0 14px rgb(0, 247, 0), 0 0 105px rgb(0, 247, 0);
+  }
+}
 @keyframes neon {
     0% {
       text-shadow: -1px -1px 1px $shadow-color-light, -1px 1px 1px $shadow-color-light, 1px -1px 1px $shadow-color-light, 1px 1px 1px $shadow-color-light,
