@@ -15,7 +15,7 @@ const WhoIAm = () => {
                     <div className="who_i_am__message_welcome">Hello!</div>
                     <div className="who_i_am__message_text">
                         <h1>My name is Adam Gorski <i class="fa fa-yin-yang"></i></h1>
-                        <h2>a front-end developer based in Folkestone, Kent, UK. My passion is creating websites
+                        <h2>A front-end developer based in Folkestone, Kent, UK. My passion is creating websites
                  and programming in general. Coding has become my lifestyle.</h2>
                     </div>
                 </div>
