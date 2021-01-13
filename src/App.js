@@ -13,6 +13,7 @@ import MyWork from './pages/MyWork'
 import Contact from './pages/Contact.js'
 
 import Navigation from './Components/Navigation'
+import ErrorPage from './Components/ErrorPage'
 
 
 
@@ -33,6 +34,7 @@ const App = () => {
           <Route path="/aboutme" component={AboutMe} />
           <Route path="/mywork" component={MyWork} />
           <Route path="/contact" component={Contact} />
+
         </Switch>
       </AnimatePresence>
 

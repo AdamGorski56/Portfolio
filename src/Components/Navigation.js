@@ -15,7 +15,7 @@ const Navigation = () => {
                 <NavLink to="/contact" className="navigation__link"><i class="fa fa-check"></i ></NavLink>
             </ul>
             <ul className="navigation__icons">
-                <a href="https://www.linkedin.com/in/adam-g%C3%B3rski-a58b05202/" target="_blank" rel="noreferrer"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.linkedin.com/in/adam-gorski-a58b05202/" target="_blank" rel="noreferrer"><i class="fab fa-linkedin"></i></a>
                 <a href="https://github.com/AdamGorski56/" target="_blank" rel="noreferrer"><i class="fab fa-github"></i></a>
             </ul>
         </nav>
