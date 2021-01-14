@@ -62,6 +62,10 @@
     .about_me_navigation__options ul{
         margin-left:0%;;  
     }
+    .about_me_navigation__option .line{
+        height: 10%;
+        border-bottom:3px solid rgb(0, 247, 0) ;
+    }
 }
 @media only screen and (max-width: 768px){
     .about_me_navigation__options{
@@ -73,6 +77,10 @@
     }
     .about_me_navigation__options ul{  
         width: 100%;
+    }
+    .about_me_navigation__option .line{
+        height: 5%;
+        border-bottom:3px solid rgb(0, 247, 0) ;
     }
 
 }

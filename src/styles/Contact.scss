@@ -120,8 +120,9 @@
 @media only screen and (max-width: 767px){
     .contact{
         position: relative;;
-        left: 20px;
+        left: 0px;
     }
+   
     .contact__header{
         width: 250px;
         height:90px;
@@ -129,14 +130,33 @@
     .contact__header h1{
         font-size: 28px;
     }
+    .contact__info_content_container{
+        
+        height:55vh;
+        width: 55vw;
+        margin-top:40px;
+        border: none; 
+        background-color: rgba(0, 0, 0, 0.5);
+        border-radius: 30px;
+        margin-left: 3vw;   
+    }
     .contact__info_container h2{
         font-size: 24px;
      }
     .contact__info_content_container i{
         font-size: 20px;
+        
     }
     .contact__info_content_container span{
         font-size: 20px;
+    }
+    .contact__info_content_container .line{
+        width:100%;
+        height:2px;;
+        position: absolute;
+        background-color: rgb(0, 247, 0); 
+        z-index: 1  ;
+        bottom: -50%;
     }
     .contact__email, .contact__phone{
         display: flex;
@@ -147,6 +167,7 @@
         left:0;
         padding-bottom:15px
     }
+    
     .contact__email_btn{
         height: 50px;
         width: 150px;
@@ -155,7 +176,7 @@
 }
 @media only screen and (max-width: 625px){
     .contact{
-        left: 35px;
+        left: 0px;
     }
     .contact__header{
         width: 200px;

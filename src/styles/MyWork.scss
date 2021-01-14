@@ -126,11 +126,12 @@
 }
 @media only screen and (max-width: 880px){
     .my_work{
+        text-align: center;
         overflow: visible;
         left:20px;
     }
     .my_work__container{
-        top: 12vh;
+        top: 15vh;
         height: 100%;
     }
     .my_work__project_one{
@@ -142,6 +143,7 @@
         flex-direction: column-reverse;
         padding:0;
         padding-bottom: 30px;
+
     }
     .my_work__image{
         width:35%
@@ -153,7 +155,7 @@
     .my_work__project_one .my_work__description{
         margin-top: 40px;
         margin-right: 0;
-        width: 55%;
+        width: 80%;
     }
     .my_work__project_two .my_work__image img{
         border: 1px dotted rgb(0, 247, 0);
@@ -162,10 +164,11 @@
     .my_work__project_two .my_work__description{
         margin-top: 40px;
         margin-left: 0;
-        width: 55%;
+        width: 80%;
     }
 }
 @media only screen and (max-width: 767px){
+
     
     .my_work__project_one .my_work__description, .my_work__project_two .my_work__description{
        font-size: 10px;
@@ -179,6 +182,9 @@
         padding:0;  
         margin-bottom: 0px;
     }
+    .my_work__project_two{
+        transform: translateY(-10%);
+    }
 }
 @media only screen and (max-width: 625px){
    
@@ -187,5 +193,8 @@
     }
     .my_work__description button{
         font-size: 12px;
+    }
+    .my_work__project_two{
+        transform: translateY(-15%);
     }
 }
