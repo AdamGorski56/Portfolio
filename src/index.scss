@@ -39,7 +39,8 @@ $shadow-color:rgb(3, 187, 3);
 }
 body{
   background-color: black;
-  overflow: hidden;
+  overflow: visible;
+  overflow-x: hidden;
   height:100%;
 }
 @font-face {

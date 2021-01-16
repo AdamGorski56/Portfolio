@@ -1,4 +1,6 @@
 .navigation{
+    display: flex;
+    flex-direction: column;
     position: fixed;
     top: 0;
     left:0;
@@ -14,7 +16,6 @@
     font-family: Matrix-MZ4P;
     font-size: 24px;
     text-align: center;
-    left:25%;
     position: relative;
     color:rgb(0, 247, 0); 
     top:10vh;
@@ -99,6 +100,7 @@
   
     .navigation{
       display: flex;;
+      flex-direction: row;
       justify-content: space-around;;
       align-items: center;
       position: fixed;
@@ -137,4 +139,15 @@
     }
 
 }
+@media only screen and (max-height: 760px){
+  .navigation__link{
+  
+    margin-top: 60px;
+ 
+    }
+    .navigation__icons{
 
+      margin-top: 140px;
+
+    }
+}
