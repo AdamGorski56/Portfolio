@@ -170,7 +170,9 @@
     }
 }
 @media only screen and (max-width: 767px){
-
+   .my_work{
+       left:0px;
+   }
     
     .my_work__project_one .my_work__description, .my_work__project_two .my_work__description{
        font-size: 10px;

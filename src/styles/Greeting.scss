@@ -49,10 +49,10 @@
   }
 
  // responsiveness
- @media only screen and (max-width: 768px){
+ @media only screen and (max-width: 760px){
     .greeting{
       font-size: 18px;
-      transform: translate(-40%,-50%)
+      transform: translate(-50%,-50%)
     }
     .greeting__btnOutline{
       font-size: 18px;;

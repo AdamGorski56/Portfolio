@@ -106,7 +106,7 @@
       position: fixed;
       top:auto;
       bottom:0px;
-      left:0;
+      left:-20px;
       color:rgb(0, 247, 0); 
       width: 100vw;;
       height:100px;;
@@ -150,4 +150,9 @@
       margin-top: 140px;
 
     }
+}
+@media only screen and (max-width: 400px){
+  .navigation__logo{
+    left:0vw;
+  }
 }
