@@ -1,123 +1,124 @@
-.hire_me{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    color:white;
-    width: 100%;
-    font-family: 'Playfair Display';
-    margin-top: 2vh;
-    margin-bottom: 4vh;
+.hire_me {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  width: 100%;
+  font-family: "Playfair Display";
+  height: 80vh;
 }
-.hire_me__container{
-    position: relative;
-    background-color: rgba(0, 0, 0, 0.5);
-    width:70%;
-    padding: 3vh
+.hire_me__container {
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 70%;
 }
-.hire_me__container h1{
-    margin: 3vh;
-    color: white;
-    text-shadow: -1px -1px 1px rgb(3, 187, 3), -1px 1px 1px rgb(3, 187, 3), 1px -1px 1px rgb(3, 187, 3), 1px 1px 1px rgb(3, 187, 3),
-      0 0 5px rgb(3, 187, 3), 0 0 15px rgb(3, 187, 3), 0 0 25px rgb(3, 187, 3),
-      0 0 40px rgb(3, 187, 3), 0 0 50px rgb(3, 187, 3), 0 0 60px rgb(3, 187, 3), 0 0 80px rgb(3, 187, 3), 0 0 110px rgb(3, 187, 3), 0 0 210px rgb(3, 187, 3);
+.hire_me__container h1 {
+  margin: 3vh;
+  color: white;
+  text-shadow: -1px -1px 1px rgb(3, 187, 3), -1px 1px 1px rgb(3, 187, 3),
+    1px -1px 1px rgb(3, 187, 3), 1px 1px 1px rgb(3, 187, 3),
+    0 0 5px rgb(3, 187, 3), 0 0 15px rgb(3, 187, 3), 0 0 25px rgb(3, 187, 3),
+    0 0 40px rgb(3, 187, 3), 0 0 50px rgb(3, 187, 3), 0 0 60px rgb(3, 187, 3),
+    0 0 80px rgb(3, 187, 3), 0 0 110px rgb(3, 187, 3), 0 0 210px rgb(3, 187, 3);
 }
-.hire_me__container .text{
-    margin: 7vh;
-    font-size: 24px;
-    letter-spacing: 3px;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+.hire_me__container .text {
+  margin: 7vh;
+  font-size: 24px;
+  letter-spacing: 3px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
-.hire_me__container .message{
-    margin: 5vh;
-    font-size: 20px;
-    letter-spacing: 2px;
-    font-weight: bold;
+.hire_me__container .message {
+  margin: 5vh;
+  font-size: 20px;
+  letter-spacing: 2px;
+  font-weight: bold;
 }
 .hire_me a {
-    width: auto;
- }
-
- .hire_me__contact_btn{
-    position: relative;
-    font-size: 24px;
-    background: rgba(255, 255, 255, 0);
-    padding: 12px 20px 12px 20px;
-    color: white;
-    border: 2px solid rgb(0, 247, 0);
-    border-radius: 30px;
-    outline:none;
-    cursor: pointer;
+  width: auto;
 }
 
-@media only screen and (max-width: 1023px){
-    .hire_me__container{
-        left:50%;
-        transform: translateX(-50%);
-        width:90%;
-    }
+.hire_me__contact_btn {
+  position: relative;
+  font-size: 24px;
+  background: rgba(255, 255, 255, 0);
+  padding: 12px 20px 12px 20px;
+  color: white;
+  border: 2px solid rgb(0, 247, 0);
+  border-radius: 30px;
+  outline: none;
+  cursor: pointer;
 }
-@media only screen and (max-width: 769px){
-    .hire_me__container{
-        transform: translateX(-48%);
-    }
-    .hire_me__container .text{
-        font-size:20px;
-    }
-    .hire_me__container .message{
-        font-size:18px;
-    }
-    .hire_me__contact_btn{
-        font-size: 20px;
-    }
-}
-@media only screen and (max-width: 760px){
-    .hire_me__container{
-        margin-bottom: 100px;
-        transform: translateX(-50%);
-        width:100%;
-    }
-    .hire_me__container .text{
-        margin: 4vh;
-    }
-}
-@media only screen and (max-width: 550px){
-    .hire_me__container .text{
-        font-size:16px;
-        margin: 2vh;
-    }
-    .hire_me__container .message{
-        font-size:14px;
-    }
-    .hire_me__contact_btn{
-        font-size: 16px;
-    }
-}
-@media only screen and (max-width: 460px){
-    .hire_me__container{
-        margin-bottom: 100px;
-        transform: translateX(-50%);
-    }
-    .hire_me__container .text{
-        font-size:16px;
-        margin: 2vh;
-    }
-    .hire_me__container .message{
-        font-size:14px;
-    }
-    .hire_me__contact_btn{
-        font-size: 16px;
-    }
-}
-@media only screen and (max-width: 380px){
 
-    .hire_me__container .text{
-        font-size:14px;
-
-    }
-    .hire_me__container .message{
-        font-size:12px;
-    }
-    .hire_me__contact_btn{
-        font-size: 14px;
-    }
+@media only screen and (max-width: 1023px) {
+  .hire_me__container {
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+  }
+}
+@media only screen and (max-width: 769px) {
+  .hire_me__container {
+    transform: translateX(-48%);
+    transform: translateY(-100%);
+  }
+  .hire_me__container .text {
+    font-size: 20px;
+  }
+  .hire_me__container .message {
+    font-size: 18px;
+  }
+  .hire_me__contact_btn {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 760px) {
+  .hire_me__container {
+    margin-bottom: 0px;
+    transform: translateX(-50%);
+    width: 100%;
+  }
+  .hire_me__container .text {
+    margin: 4vh;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .hire_me__container .text {
+    font-size: 16px;
+    margin: 2vh;
+  }
+  .hire_me__container .message {
+    font-size: 14px;
+  }
+  .hire_me__contact_btn {
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 460px) {
+  .hire_me__container {
+    transform: translateX(-50%);
+  }
+  .hire_me__container .text {
+    font-size: 16px;
+    margin: 2vh;
+  }
+  .hire_me__container .message {
+    font-size: 14px;
+  }
+  .hire_me__contact_btn {
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 380px) {
+  .hire_me__container .text {
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+  .hire_me__container .message {
+    font-size: 12px;
+  }
+  .hire_me__contact_btn {
+    font-size: 14px;
+  }
 }

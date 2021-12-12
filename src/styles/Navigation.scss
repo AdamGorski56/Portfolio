@@ -1,158 +1,133 @@
-.navigation{
-    display: flex;
-    flex-direction: column;
-    position: fixed;
-    top: 0;
-    left:0;
-    color:rgb(0, 247, 0); 
-    width: 100px;
-    height:100vh;
-    background-color:rgb(5, 15, 9);
-    z-index: 100;
-  
-  }
-
-  .navigation__logo{
-    font-family: Matrix-MZ4P;
-    font-size: 24px;
-    text-align: center;
-    position: relative;
-    color:rgb(0, 247, 0); 
-    top:10vh;
-    text-decoration: none;
-  }
-.navigation__links{
-    display: flex;
-    flex-direction: column;
-    margin-top: 18vh;
-    text-align: center;
-    list-style-type: none;
-    width:100%;
-  }
-  .navigation__link{
-    width: 100%;
-    padding-top: 0px; 
-    margin-top: 90px;
-    position:relative;
-    color: rgb(135, 148, 151)
-    }
-  
-  .navigation__icons{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    list-style-type: none;  
-    color:rgb(135, 148, 151); 
-    margin-top: 170px;
-    height:140px;
-  }
-  .navigation__icons i{
-    color:rgb(135, 148, 151); 
-
-  }
-  .navigation__icons i:hover{
-    color:rgb(0, 247, 0); 
-
-  }
-
-
-  .navigation .active{
-    color:rgb(0, 247, 0);
-  }
-  
-  .navigation .navigation__link:hover:after {
-    opacity: 1;
-    color:rgb(0, 247, 0); 
-  }
-  .navigation .navigation__link:first-child:after {
-    content:"ABOUT ME";
-    width: 100%;  
-  }
-
-  .navigation .navigation__link:after {
-    content: '';
-    font-size: 9px;
-    letter-spacing: 2px;
-    position: absolute;
-    bottom: 5px;
-    display: block;
-    width: 100%;
-    text-align: center;
-    opacity: 0;
-    transition: all 0.3s ease-out;
+.navigation {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  left: 0;
+  color: rgb(0, 247, 0);
+  width: 6vw;
+  height: 100vh;
+  background-color: rgb(5, 15, 9);
+  z-index: 100;
 }
-.navigation .navigation__link:first-child  +  .navigation__link:after {
-  content: 'MY WORK';
+
+.navigation__logo {
+  font-family: Matrix-MZ4P;
+  font-size: 24px;
+  text-align: center;
+  position: relative;
+  color: rgb(0, 247, 0);
+  top: 10vh;
+  text-decoration: none;
 }
-.navigation .navigation__link:first-child + .navigation__link  + .navigation__link:after {
-  content: 'CONTACT';
+.navigation__links {
+  display: flex;
+  flex-direction: column;
+  margin-top: 22vh;
+  text-align: center;
+  list-style-type: none;
+  width: 100%;
+}
+.navigation__link {
+  width: 100%;
+  padding-top: 0px;
+  margin-top: 90px;
+  position: relative;
+  color: rgb(135, 148, 151);
+}
+
+.navigation__icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  list-style-type: none;
+  color: rgb(135, 148, 151);
+  margin-top: 26vh;
+  height: 140px;
+}
+.navigation__icons i {
+  color: rgb(135, 148, 151);
+}
+.navigation__icons i:hover {
+  color: rgb(0, 247, 0);
+}
+
+.navigation .active {
+  color: rgb(0, 247, 0);
+}
+
+.navigation .navigation__link:hover:after {
+  opacity: 1;
+  color: rgb(0, 247, 0);
+}
+.navigation .navigation__link:first-child:after {
+  content: "ABOUT ME";
+  width: 100%;
+}
+
+.navigation .navigation__link:after {
+  content: "";
+  font-size: 12px;
+  letter-spacing: 2px;
+  position: absolute;
+  bottom: 5px;
+  display: block;
+  width: 100%;
+  text-align: center;
+  opacity: 0;
+  transition: all 0.3s ease-out;
+}
+.navigation .navigation__link:first-child + .navigation__link:after {
+  content: "MY WORK";
+}
+.navigation
+  .navigation__link:first-child
+  + .navigation__link
+  + .navigation__link:after {
+  content: "CONTACT";
 }
 .navigation .navigation__link:hover i {
   opacity: 0;
-  color:rgb(0, 247, 0); 
+  color: rgb(0, 247, 0);
   transition: all 0.3s ease-out;
-  
 }
 
 //responsivness
-@media only screen and (max-width: 760px){
-  
-    .navigation{
-      display: flex;;
-      flex-direction: row;
-      justify-content: space-around;;
-      align-items: center;
-      position: fixed;
-      top:auto;
-      bottom:0px;
-      left:-20px;
-      color:rgb(0, 247, 0); 
-      width: 100vw;;
-      height:100px;;
-      background-color:rgb(5, 15, 9);
-      z-index: 100;
-      margin-top: 100px;
-      
-    }
-    .navigation__logo{
-      left:-2vw;
-      margin-left: 5%;
-      top:0px;
-    }
-    .navigation__links{
-      flex-direction: row;
-      align-items: center;
-      margin-top:0px;
-      width:40%;
-    }
-    .navigation__link{
-      margin-top: 0px;
-      }
-    .navigation__icons{
-      flex-direction: row;
-      margin-top: 0px;
-      height:0px;
-    }
-    .navigation__icons a:first-child{
-      padding-right:2vh;
-    }
-
-}
-@media only screen and (max-height: 760px){
-  .navigation__link{
-  
-    margin-top: 60px;
- 
-    }
-    .navigation__icons{
-
-      margin-top: 140px;
-
-    }
-}
-@media only screen and (max-width: 400px){
-  .navigation__logo{
-    left:0vw;
+@media only screen and (max-width: 760px) {
+  .navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top: auto;
+    bottom: 0px;
+    color: rgb(0, 247, 0);
+    width: 100vw;
+    height: 12vh;
+    background-color: rgb(5, 15, 9);
+    z-index: 100;
+  }
+  .navigation__logo {
+    margin-left: 5%;
+    top: 0px;
+  }
+  .navigation__links {
+    flex-direction: row;
+    align-items: center;
+    width: 40%;
+    margin-top: 0vh;
+  }
+  .navigation__link {
+    margin-top: 0px;
+  }
+  .navigation__icons {
+    flex-direction: row;
+    margin-top: 0px;
+    height: 0px;
+  }
+  .navigation__icons a:first-child {
+    padding-right: 2vh;
   }
 }

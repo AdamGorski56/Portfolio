@@ -1,287 +1,289 @@
-  
-
-.who_i_am{
-    
-    color:white;
-    z-index: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width:100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    font-family: 'Playfair Display';
-    letter-spacing: 1px;
+.who_i_am {
+  color: white;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  font-family: "Playfair Display";
+  letter-spacing: 1px;
+  margin-top: 10vh;
+  margin-bottom: 50px;
 }
-.who_i_am__container{
-    text-align: center;
-    color:white;
-    z-index: 1;
-    width: 80%;
-    padding:5vh;
-    background-color: rgba(0, 0, 0, 0.5);
-
+.who_i_am__container {
+  text-align: center;
+  color: white;
+  z-index: 1;
+  width: 80%;
+  padding: 5vh;
+  background-color: rgba(0, 0, 0, 0.5);
 }
-.who_i_am__message_container{
-    display: flex; 
-    justify-content: space-around;
-   
+.who_i_am__message_container {
+  display: flex;
+  justify-content: space-around;
 }
-.who_i_am__message_welcome{
-    font-size: 77px;
-    transform: rotate(-30deg) translateY(10%);
-    font-family: 'Pacifico';
-    margin-left: 100px;  
-    color: white;
-    text-shadow: -1px -1px 1px rgb(3, 187, 3), -1px 1px 1px rgb(3, 187, 3), 1px -1px 1px rgb(3, 187, 3), 1px 1px 1px rgb(3, 187, 3),
-      0 0 3px rgb(3, 187, 3), 0 0 10px rgb(3, 187, 3), 0 0 20px rgb(3, 187, 3),
-      0 0 30px rgb(3, 187, 3), 0 0 40px rgb(3, 187, 3), 0 0 50px rgb(3, 187, 3), 0 0 70px rgb(3, 187, 3), 0 0 100px rgb(3, 187, 3), 0 0 200px rgb(3, 187, 3);
-}
-
-.who_i_am__message_text{
-    margin-bottom: 3vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-left: 100px;
-    
-}
-.who_i_am__message_text h1{
-    padding: 0vh;
-}
-.who_i_am__message_text h1 i{
-    padding-left: 2vh;
-    
-}
-.who_i_am__message_text h2{
-    padding: 2vh;
-    line-height: 32px;
-    width: 60%;
-    font-size: 20px;
-    font-weight: 400;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-
+.who_i_am__message_welcome {
+  font-size: 77px;
+  transform: rotate(-30deg) translateY(10%);
+  font-family: "Pacifico";
+  margin-left: 100px;
+  color: white;
+  text-shadow: -1px -1px 1px rgb(3, 187, 3), -1px 1px 1px rgb(3, 187, 3),
+    1px -1px 1px rgb(3, 187, 3), 1px 1px 1px rgb(3, 187, 3),
+    0 0 3px rgb(3, 187, 3), 0 0 10px rgb(3, 187, 3), 0 0 20px rgb(3, 187, 3),
+    0 0 30px rgb(3, 187, 3), 0 0 40px rgb(3, 187, 3), 0 0 50px rgb(3, 187, 3),
+    0 0 70px rgb(3, 187, 3), 0 0 100px rgb(3, 187, 3), 0 0 200px rgb(3, 187, 3);
 }
 
-.who_i_am__facts_container{
-    display: flex;
-    flex-direction: row-reverse;
-    width: 80%;
-    margin-top: 5vh;
+.who_i_am__message_text {
+  margin-bottom: 3vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 100px;
 }
-.who_i_am__facts_signs{
-    position: relative;
-    transform: translateX(10vh);
-    margin-left: 20px; 
-    color: white;
-    text-shadow: -1px -1px 1px rgb(3, 187, 3), -1px 1px 1px rgb(3, 187, 3), 1px -1px 1px rgb(3, 187, 3), 1px 1px 1px rgb(3, 187, 3),
-      0 0 3px rgb(3, 187, 3), 0 0 10px rgb(3, 187, 3), 0 0 20px rgb(3, 187, 3),
-      0 0 30px rgb(3, 187, 3), 0 0 40px rgb(3, 187, 3), 0 0 50px rgb(3, 187, 3), 0 0 70px rgb(3, 187, 3), 0 0 100px rgb(3, 187, 3), 0 0 200px rgb(3, 187, 3);
+.who_i_am__message_text h1 {
+  padding: 0vh;
 }
-.who_i_am__facts_signs #sign1{
-    position: relative;
-    font-size: 100px;
-    font-family: 'Pacifico';
-    transform: rotate(50deg) ;
+.who_i_am__message_text h1 i {
+  padding-left: 2vh;
 }
-.who_i_am__facts_signs #sign2{
-    position: absolute;
-    font-size: 100px;
-    font-family: 'Pacifico';
-    transform: rotate(50deg) translate( 20px, -50px) ;  
-}
-.who_i_am__facts_signs #sign3{
-    position: absolute;;
-    font-size: 100px;
-    font-family: 'Pacifico';
-    transform: rotate(100deg) translate( 50px, -50px) ;
+.who_i_am__message_text h2 {
+  padding: 2vh;
+  line-height: 32px;
+  width: 60%;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
-.who_i_am__facts_content{
-   flex-grow: 1;
-   margin-left: 100px;
+.who_i_am__facts_container {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 80%;
+  margin-top: 5vh;
 }
-.who_i_am__container h3{
-    padding-top: 3vh;
-    font-size: 28px;
-    position:absolute;
-    left:25%;
-    transform: translateY(-90%);
+.who_i_am__facts_signs {
+  position: relative;
+  transform: translateX(10vh);
+  margin-left: 20px;
+  color: white;
+  text-shadow: -1px -1px 1px rgb(3, 187, 3), -1px 1px 1px rgb(3, 187, 3),
+    1px -1px 1px rgb(3, 187, 3), 1px 1px 1px rgb(3, 187, 3),
+    0 0 3px rgb(3, 187, 3), 0 0 10px rgb(3, 187, 3), 0 0 20px rgb(3, 187, 3),
+    0 0 30px rgb(3, 187, 3), 0 0 40px rgb(3, 187, 3), 0 0 50px rgb(3, 187, 3),
+    0 0 70px rgb(3, 187, 3), 0 0 100px rgb(3, 187, 3), 0 0 200px rgb(3, 187, 3);
+}
+.who_i_am__facts_signs #sign1 {
+  position: relative;
+  font-size: 100px;
+  font-family: "Pacifico";
+  transform: rotate(50deg);
+}
+.who_i_am__facts_signs #sign2 {
+  position: absolute;
+  font-size: 100px;
+  font-family: "Pacifico";
+  transform: rotate(50deg) translate(20px, -50px);
+}
+.who_i_am__facts_signs #sign3 {
+  position: absolute;
+  font-size: 100px;
+  font-family: "Pacifico";
+  transform: rotate(100deg) translate(50px, -50px);
 }
 
-.who_i_am__container ul{
-    margin: 4vh;
-    list-style-type: none;
-    text-align: left;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+.who_i_am__facts_content {
+  flex-grow: 1;
+  margin-left: 100px;
 }
-.who_i_am__container ul span{
-    transform: translateY(20%);
-    position: absolute;
-    font-family: Matrix-MZ4P;
-    color:rgb(0, 247, 0);  
-    
+.who_i_am__container h3 {
+  padding-top: 3vh;
+  font-size: 28px;
+  position: absolute;
+  left: 25%;
+  transform: translateY(-90%);
 }
-.who_i_am__container ul li{
-    margin:1vh;
-    font-size: 20px;
-    margin-left: 35px;  
+
+.who_i_am__container ul {
+  margin: 4vh;
+  list-style-type: none;
+  text-align: left;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
-.who_i_am__regards{
-    position: relative;
-    left:50%;
-    transform: translateX(-50%);
-    padding:3vh;
-    width:50%;
+.who_i_am__container ul span {
+  transform: translateY(20%);
+  position: absolute;
+  font-family: Matrix-MZ4P;
+  color: rgb(0, 247, 0);
 }
-.who_i_am__regards p{
-    position: relative;
-    top:10px;
-    padding-bottom:4px;
-    font-size: 26px;
-    font-weight: bold;
-    border-bottom:2px solid rgb(0, 247, 0);  
-    }
+.who_i_am__container ul li {
+  margin: 1vh;
+  font-size: 20px;
+  margin-left: 35px;
+}
+.who_i_am__regards {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 3vh;
+  width: 50%;
+}
+.who_i_am__regards p {
+  position: relative;
+  top: 10px;
+  padding-bottom: 4px;
+  font-size: 26px;
+  font-weight: bold;
+  border-bottom: 2px solid rgb(0, 247, 0);
+}
 
 //responsiveness
 
-@media only screen and (max-width: 1560px){
-    .who_i_am__facts_signs{
-        position: relative;
-        transform: translateX(-2vh);
-        margin-left: 20px; 
-    }
+@media only screen and (max-width: 1560px) {
+  .who_i_am__facts_signs {
+    position: relative;
+    transform: translateX(-2vh);
+    margin-left: 20px;
+  }
 }
 
-@media only screen and (max-width: 1240px){
-    .who_i_am__message_welcome{
-        font-size: 60px;;
-        margin-left: 90px;  
-    }
-    .who_i_am__message_text{
-        margin-bottom: 2vh;  
-    }
-    .who_i_am__message_text h1{
-        padding: 2vh;
-        font-size: 26px;
-    }
-    .who_i_am__message_text h2{
-        font-size: 20px;
-    }
-    .who_i_am__facts_signs{
-        transform: translateX(0vh);
-        transform: translateY(12%);
-    }
-    .who_i_am__facts_signs #sign1,.who_i_am__facts_signs #sign2,.who_i_am__facts_signs #sign3{
-        font-size: 80px;
-    }
-    .who_i_am__container ul li{
-        font-size: 16px;
-        margin-left: 35px;  
-    }
+@media only screen and (max-width: 1240px) {
+  .who_i_am__message_welcome {
+    font-size: 60px;
+    margin-left: 90px;
+  }
+  .who_i_am__message_text {
+    margin-bottom: 2vh;
+  }
+  .who_i_am__message_text h1 {
+    padding: 2vh;
+    font-size: 26px;
+  }
+  .who_i_am__message_text h2 {
+    font-size: 20px;
+  }
+  .who_i_am__facts_signs {
+    transform: translateX(0vh);
+    transform: translateY(12%);
+  }
+  .who_i_am__facts_signs #sign1,
+  .who_i_am__facts_signs #sign2,
+  .who_i_am__facts_signs #sign3 {
+    font-size: 80px;
+  }
+  .who_i_am__container ul li {
+    font-size: 16px;
+    margin-left: 35px;
+  }
 }
-@media only screen and (max-width: 1020px){
-    .who_i_am{
-    padding-top:5vh;
-    }
-    .who_i_am__message_container{
-        display: flex; 
-        flex-direction: column;
-    }
-    .who_i_am__message_welcome{
-        transform: rotate(-30deg) translateY(-40%);
-    }
-    .who_i_am__message_text{
-        position: relative;
-        left:0px;
-    }
+@media only screen and (max-width: 1020px) {
+  .who_i_am {
+    padding-top: 5vh;
+  }
+  .who_i_am__message_container {
+    display: flex;
+    flex-direction: column;
+  }
+  .who_i_am__message_welcome {
+    transform: rotate(-30deg) translateY(-40%);
+  }
+  .who_i_am__message_text {
+    position: relative;
+    left: 0px;
+  }
 }
-@media only screen and (max-width: 900px){
-    .who_i_am__message_welcome{
-        font-size: 50px;;
-   
-    }
-    .who_i_am__message_text{
-        margin-bottom: 30px;
-    }
-    .who_i_am__message_text h1{
-        font-size: 22px;
-    }
+@media only screen and (max-width: 900px) {
+  .who_i_am__message_welcome {
+    font-size: 50px;
+  }
+  .who_i_am__message_text {
+    margin-bottom: 30px;
+  }
+  .who_i_am__message_text h1 {
+    font-size: 22px;
+  }
 
-    .who_i_am__message_text h2{
-        font-size: 16px;
-    }
-    .who_i_am__facts_signs{
-        transform: translateX(0vh);
-        transform: translateY(20%);
-    }
-    .who_i_am__facts_signs #sign1,.who_i_am__facts_signs #sign2,.who_i_am__facts_signs #sign3{
-        font-size: 70px;
-    }
+  .who_i_am__message_text h2 {
+    font-size: 16px;
+  }
+  .who_i_am__facts_signs {
+    transform: translateX(0vh);
+    transform: translateY(20%);
+  }
+  .who_i_am__facts_signs #sign1,
+  .who_i_am__facts_signs #sign2,
+  .who_i_am__facts_signs #sign3 {
+    font-size: 70px;
+  }
 }
-@media only screen and (max-width: 760px){
-   
-    .who_i_am__container{
-        width: 100%;
-       
-    }
-    .who_i_am__message_welcome{
-        transform: rotate(-30deg) translate(-5%,-60%);
-    }
-    .who_i_am__message_text {
-       margin-left: 0px;
-    }
+@media only screen and (max-width: 760px) {
+  .who_i_am__container {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .who_i_am__message_welcome {
+    transform: rotate(-30deg) translate(-5%, -60%);
+  }
+  .who_i_am__message_text {
+    margin-left: 0px;
+  }
 
-    .who_i_am__facts_container{
-        flex-direction: column;
-        align-items: center;
-        width: 80%;
-        margin-top: 0vh;
-    }
-    .who_i_am__facts_signs{
-    transform:translate( -10%,100%);
-    padding-bottom:0px;
-    }
-   
-    .who_i_am__container h3{
-       font-size: 22px;
-        left:50%;
-        transform: translate( -50%, -150%);
-    }
-    .who_i_am__facts_content{
+  .who_i_am__facts_container {
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin-top: 0vh;
+  }
+  .who_i_am__facts_signs {
+    transform: translate(-10%, 100%);
+    padding-bottom: 0px;
+  }
+
+  .who_i_am__container h3 {
+    font-size: 22px;
+    left: 50%;
+    transform: translate(-50%, -150%);
+  }
+  .who_i_am__facts_content {
     margin-left: 30%;
-    }
-    .who_i_am__container ul{
-        margin-top: 160px;
-    }
-    .who_i_am__container ul li{
-        width:250px;
-    }
-  
-    .who_i_am__regards{
-    left:50%;
-    transform: translateX(-50%);
-    height:100px;
-    }
-    .who_i_am__regards p{
-        border-bottom: 3px solid rgb(0, 247, 0);
-        font-size: 22px;
-     }
-}
-@media only screen and (max-width: 600px){
-    .who_i_am__message_welcome{
-        font-size: 40px;;
-    }
-    .who_i_am__message_text{
-        margin-bottom: 50px;
-    }
-    .who_i_am__message_text h1{
-        font-size: 20px;
-    }
-    .who_i_am__message_text h2{
-        font-size: 14px;
+  }
+  .who_i_am__container ul {
+    margin-top: 160px;
+  }
+  .who_i_am__container ul li {
+    width: 250px;
+  }
 
-    }
-    .who_i_am__facts_signs #sign1,.who_i_am__facts_signs #sign2,.who_i_am__facts_signs #sign3{
-        font-size: 50px;
-    }
+  .who_i_am__regards {
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 70px;
+  }
+  .who_i_am__regards p {
+    border-bottom: 3px solid rgb(0, 247, 0);
+    font-size: 22px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .who_i_am__message_welcome {
+    font-size: 40px;
+  }
+  .who_i_am__message_text {
+    margin-bottom: 50px;
+  }
+  .who_i_am__message_text h1 {
+    font-size: 20px;
+  }
+  .who_i_am__message_text h2 {
+    font-size: 14px;
+  }
+  .who_i_am__facts_signs #sign1,
+  .who_i_am__facts_signs #sign2,
+  .who_i_am__facts_signs #sign3 {
+    font-size: 50px;
+  }
 }
