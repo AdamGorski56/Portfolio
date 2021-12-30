@@ -94,6 +94,21 @@
 }
 
 //responsivness
+@media only screen and (max-height: 800px) {
+  .navigation__links {
+    margin-top: 10vh;
+  }
+  .navigation__icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    list-style-type: none;
+    color: rgb(135, 148, 151);
+    margin-top: 15vh;
+    height: 140px;
+  }
+}
 @media only screen and (max-width: 760px) {
   .navigation {
     display: flex;

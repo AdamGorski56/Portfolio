@@ -1,5 +1,5 @@
 $shadow-color-light: rgb(3, 187, 3);
-$shadow-color:rgb(3, 187, 3);
+$shadow-color: rgb(3, 187, 3);
 @keyframes blink {
   20%,
   24%,
@@ -8,62 +8,76 @@ $shadow-color:rgb(3, 187, 3);
     text-shadow: none;
   }
 
-  0%,19%,21%,23%,25%,54%,56%,100% {
-   color: white;
-    
-      text-shadow: 0 0 9px rgb(0, 247, 0), 0 0 19px rgb(0, 247, 0), 0 0 24px rgb(0, 247, 0), 0 0 46px rgb(0, 247, 0), 0 0 66px rgb(0, 247, 0), 0 0 14px rgb(0, 247, 0), 0 0 105px rgb(0, 247, 0);
+  0%,
+  19%,
+  21%,
+  23%,
+  25%,
+  54%,
+  56%,
+  100% {
+    color: white;
+
+    text-shadow: 0 0 9px rgb(0, 247, 0), 0 0 19px rgb(0, 247, 0),
+      0 0 24px rgb(0, 247, 0), 0 0 46px rgb(0, 247, 0), 0 0 66px rgb(0, 247, 0),
+      0 0 14px rgb(0, 247, 0), 0 0 105px rgb(0, 247, 0);
   }
 }
 @keyframes neon {
-    0% {
-      text-shadow: -1px -1px 1px $shadow-color-light, -1px 1px 1px $shadow-color-light, 1px -1px 1px $shadow-color-light, 1px 1px 1px $shadow-color-light,
-      0 0 3px $shadow-color-light, 0 0 10px $shadow-color-light, 0 0 20px $shadow-color-light,
-      0 0 30px $shadow-color, 0 0 40px $shadow-color, 0 0 50px $shadow-color, 0 0 70px $shadow-color, 0 0 100px $shadow-color, 0 0 200px $shadow-color;
-    }
-    50% {
-      text-shadow: -1px -1px 1px $shadow-color-light, -1px 1px 1px $shadow-color-light, 1px -1px 1px $shadow-color-light, 1px 1px 1px $shadow-color-light,
-      0 0 5px $shadow-color-light, 0 0 15px $shadow-color-light, 0 0 25px $shadow-color-light,
-      0 0 40px $shadow-color, 0 0 50px $shadow-color, 0 0 60px $shadow-color, 0 0 80px $shadow-color, 0 0 110px $shadow-color, 0 0 210px $shadow-color;
-    }
-    100% {
-      text-shadow: -1px -1px 1px $shadow-color-light, -1px 1px 1px $shadow-color-light, 1px -1px 1px $shadow-color-light, 1px 1px 1px $shadow-color-light,
-      0 0 3px $shadow-color-light, 0 0 10px $shadow-color-light, 0 0 20px $shadow-color-light,
-      0 0 30px $shadow-color, 0 0 40px $shadow-color, 0 0 50px $shadow-color, 0 0 70px $shadow-color, 0 0 100px $shadow-color, 0 0 200px $shadow-color;
-    }
+  0% {
+    text-shadow: -1px -1px 1px $shadow-color-light,
+      -1px 1px 1px $shadow-color-light, 1px -1px 1px $shadow-color-light,
+      1px 1px 1px $shadow-color-light, 0 0 3px $shadow-color-light,
+      0 0 10px $shadow-color-light, 0 0 20px $shadow-color-light,
+      0 0 30px $shadow-color, 0 0 40px $shadow-color, 0 0 50px $shadow-color,
+      0 0 70px $shadow-color, 0 0 100px $shadow-color, 0 0 200px $shadow-color;
   }
-* {
-    margin: 0;
-    padding:0;
-    
-    
+  50% {
+    text-shadow: -1px -1px 1px $shadow-color-light,
+      -1px 1px 1px $shadow-color-light, 1px -1px 1px $shadow-color-light,
+      1px 1px 1px $shadow-color-light, 0 0 5px $shadow-color-light,
+      0 0 15px $shadow-color-light, 0 0 25px $shadow-color-light,
+      0 0 40px $shadow-color, 0 0 50px $shadow-color, 0 0 60px $shadow-color,
+      0 0 80px $shadow-color, 0 0 110px $shadow-color, 0 0 210px $shadow-color;
+  }
+  100% {
+    text-shadow: -1px -1px 1px $shadow-color-light,
+      -1px 1px 1px $shadow-color-light, 1px -1px 1px $shadow-color-light,
+      1px 1px 1px $shadow-color-light, 0 0 3px $shadow-color-light,
+      0 0 10px $shadow-color-light, 0 0 20px $shadow-color-light,
+      0 0 30px $shadow-color, 0 0 40px $shadow-color, 0 0 50px $shadow-color,
+      0 0 70px $shadow-color, 0 0 100px $shadow-color, 0 0 200px $shadow-color;
+  }
 }
-body{
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
   background-color: black;
   overflow: visible;
   overflow-x: hidden;
-  height:100%;
+  height: 100%;
 }
 @font-face {
-    font-family: 'Matrix-MZ4P';
-    src: local('Matrix-MZ4P'), url(./fonts/Matrix-MZ4P.ttf) format('opentype');
-  }
-  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+  font-family: "Matrix-MZ4P";
+  src: local("Matrix-MZ4P"), url(./fonts/Matrix-MZ4P.ttf) format("opentype");
+}
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
 video {
-
   position: absolute;
-  right: 0; 
+  right: 0;
   bottom: 0;
-  min-width: 100%; 
+  min-width: 100%;
   min-height: 100%;
-  width: auto; 
-  height: auto; 
+  width: auto;
+  height: auto;
   z-index: 0;
   background-size: cover;
   overflow: hidden;
   animation: opacity 59s infinite;
- 
 }
 @keyframes opacity {
   0% {
@@ -81,23 +95,21 @@ video {
 }
 // responsivness
 
-@media only screen and (max-width: 1023px){
-  body{
+@media only screen and (max-width: 1023px) {
+  body {
     overflow: visible;
- }
+  }
   video {
-
     position: fixed;
-    right: 0; 
+    right: 0;
     bottom: 0;
-    min-width: 100%; 
+    min-width: 100%;
     min-height: 100%;
-    width: auto; 
-    height: auto; 
+    width: auto;
+    height: auto;
     z-index: 0;
     background-size: cover;
     overflow: visible;
     animation: opacity 59s infinite;
-   
   }
 }

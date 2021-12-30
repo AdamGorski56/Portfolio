@@ -5,6 +5,7 @@
   background-color: black;
   z-index: 0;
   font-family: "Playfair Display";
+  overflow-y: hidden;
 }
 
 .my_work h1 {
@@ -22,8 +23,12 @@
 .my_work__container {
   position: relative;
   width: 100%;
-  top: 15vh;
-  height: 50%;
+  top: 5vh;
+  height: auto;
+}
+.my_work__slide_wrapper {
+  position: relative;
+  top: 5vh;
 }
 .my_work__project {
   display: flex;
@@ -34,8 +39,7 @@
   padding: 8vh;
   background-color: rgba(0, 0, 0, 0.5);
 }
-.my_work__project_two,
-.my_work__project_four {
+.my_work__project_two {
   flex-direction: row-reverse;
 }
 .my_work__project .my_work__description {
@@ -55,16 +59,13 @@
   margin-right: 100px;
   border: 1px dotted rgb(0, 247, 0);
 }
-.my_work__project_one .my_work__description,
-.my_work__project_three .my_work__description {
+.my_work__project_one .my_work__description {
   margin-right: 100px;
 }
-.my_work__project_one .my_work__two__image,
-.my_work__project_three .my_work__two__image {
+.my_work__project_one .my_work__two__image {
   margin-left: 100px;
 }
-.my_work__project_two .my_work__description,
-.my_work__project_four .my_work__description {
+.my_work__project_two .my_work__description {
   margin-left: 100px;
 }
 
@@ -125,25 +126,32 @@
     transform: scale(1.5);
   }
 }
+@media only screen and (max-height: 800px) {
+  .my_work {
+    height: 100%;
+  }
+}
+
 @media only screen and (max-width: 880px) {
   .my_work {
     text-align: center;
     overflow: visible;
-    left: 20px;
   }
   .my_work__container {
-    top: 12vh;
     height: 100%;
+    top: 6vh;
   }
   .my_work__project_one {
     flex-direction: column-reverse;
     padding: 0px;
-    margin-bottom: 50px;
+    padding-bottom: 30px;
+    padding-top: 70px;
   }
   .my_work__project_two {
     flex-direction: column-reverse;
     padding: 0;
     padding-bottom: 70px;
+    padding-top: 70px;
   }
   .my_work__image {
     width: 35%;
@@ -186,11 +194,10 @@
     padding: 0;
     margin-bottom: 0px;
   }
-  .my_work__project_two {
-    transform: translateY(-10%);
-  }
 }
 @media only screen and (max-width: 625px) {
+  .my_work__slide_wrapper {
+  }
   .my_work__project_one .my_work__description,
   .my_work__project_two .my_work__description {
     font-size: 8px;
@@ -198,7 +205,70 @@
   .my_work__description button {
     font-size: 12px;
   }
-  .my_work__project_two {
-    transform: translateY(-15%);
+}
+
+//Slider section
+
+.slick-slider {
+  position: relative;
+}
+// Arrows
+.slick-next {
+  position: absolute;
+  right: 10vh;
+  width: 60px;
+  transform: scale(2);
+}
+.slick-prev {
+  position: absolute;
+  left: 20vh;
+  width: 60px;
+  transform: scale(2);
+  z-index: 100;
+}
+//dots
+.slick-dotted.slick-slider {
+}
+.slick-dots button:before {
+  position: absolute;
+  background-color: rgb(0, 247, 0);
+  border-radius: 50px;
+  transform: translateY(50%) !important;
+}
+
+.slick-dots li button {
+  font-size: 0;
+  line-height: 0;
+  display: block;
+  width: 20px;
+  height: 20px;
+  padding: 5px;
+  cursor: pointer;
+  color: transparent;
+  border: 0;
+  outline: none;
+  background: transparent;
+}
+.slick-dots {
+  bottom: 0vh;
+}
+@media only screen and (max-width: 880px) {
+  .slick-prev,
+  .slick-next {
+    display: none !important;
+  }
+  .slick-dots li button {
+    transform: scale(0.7);
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .my_work {
+    margin-bottom: 10vh;
+  }
+
+  .slick-slide {
+    position: relative;
+    top: 0vh;
   }
 }

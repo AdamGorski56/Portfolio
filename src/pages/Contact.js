@@ -18,7 +18,7 @@ const Contact = () => {
       transition={transition}
       className='contact'
     >
-      <video autoPlay loop muted cover>
+      <video autoPlay loop muted cover preload='none'>
         <source src={Matrix} type='video/mp4' />
       </video>
 
