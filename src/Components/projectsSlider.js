@@ -27,7 +27,7 @@ export default class ProjectsSlider extends Component {
             <div className='my_work__description'>
               <h2>
                 My portfolio website telling a little bit about me. I built the
-                page using the react library.
+                page using the React library.
               </h2>
               <a
                 href='https://github.com/AdamGorski56/Portfolio'

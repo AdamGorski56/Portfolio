@@ -11,7 +11,8 @@
 .my_work h1 {
   position: relative;
   text-align: center;
-  top: 7vh;
+  font-size: 40px;
+  top: 3vh;
   color: white;
   text-shadow: -1px -1px 1px rgb(3, 187, 3), -1px 1px 1px rgb(3, 187, 3),
     1px -1px 1px rgb(3, 187, 3), 1px 1px 1px rgb(3, 187, 3),
@@ -23,7 +24,6 @@
 .my_work__container {
   position: relative;
   width: 100%;
-  top: 5vh;
   height: auto;
 }
 .my_work__slide_wrapper {
@@ -106,6 +106,7 @@
 }
 
 //responsiveness
+
 @media only screen and (max-width: 1240px) {
   .my_work {
     overflow: hidden;
@@ -120,10 +121,6 @@
   }
   .my_work__project_one .my_work__image {
     margin-right: 80px;
-    transform: scale(1.5);
-  }
-  .my_work__project_two .my_work__image {
-    transform: scale(1.5);
   }
 }
 @media only screen and (max-height: 800px) {
@@ -215,13 +212,13 @@
 // Arrows
 .slick-next {
   position: absolute;
-  right: 10vh;
+  right: 2vh;
   width: 60px;
   transform: scale(2);
 }
 .slick-prev {
   position: absolute;
-  left: 20vh;
+  left: 10vh;
   width: 60px;
   transform: scale(2);
   z-index: 100;
@@ -233,7 +230,7 @@
   position: absolute;
   background-color: rgb(0, 247, 0);
   border-radius: 50px;
-  transform: translateY(50%) !important;
+  transform: translateY(100%) !important;
 }
 
 .slick-dots li button {
@@ -252,7 +249,7 @@
 .slick-dots {
   bottom: 0vh;
 }
-@media only screen and (max-width: 880px) {
+@media only screen and (max-width: 960px) {
   .slick-prev,
   .slick-next {
     display: none !important;
