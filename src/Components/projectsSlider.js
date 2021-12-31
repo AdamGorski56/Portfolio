@@ -58,8 +58,8 @@ export default class ProjectsSlider extends Component {
             <div className='my_work__description'>
               <h2>
                 It is an app that I created for my friend's request. The app
-                shows the current weather conditions and will tell you if there
-                is a good time to play tennis in the given city.
+                will shows you if there is a good time to play tennis based on
+                the weather conditions in the given city.
               </h2>
               <a
                 href='https://github.com/AdamGorski56/TennisWeatherApp/tree/master'

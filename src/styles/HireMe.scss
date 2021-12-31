@@ -1,5 +1,6 @@
 .hire_me {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -12,9 +13,10 @@
   position: relative;
   background-color: rgba(0, 0, 0, 0.5);
   width: 70%;
+  padding-bottom: 3vh;
 }
-.hire_me__container h1 {
-  margin: 3vh;
+.hire_me h1 {
+  margin: 3vmax;
   color: white;
   text-shadow: -1px -1px 1px rgb(3, 187, 3), -1px 1px 1px rgb(3, 187, 3),
     1px -1px 1px rgb(3, 187, 3), 1px 1px 1px rgb(3, 187, 3),
@@ -57,22 +59,11 @@
     transform: translateX(-50%);
     width: 90%;
   }
-}
-@media only screen and (max-width: 769px) {
-  .hire_me__container {
-    transform: translateX(-48%);
-    transform: translateY(-100%);
-  }
-  .hire_me__container .text {
-    font-size: 20px;
-  }
-  .hire_me__container .message {
-    font-size: 18px;
-  }
-  .hire_me__contact_btn {
-    font-size: 20px;
+  .hire_me h1 {
+    transform: translateX(10%);
   }
 }
+
 @media only screen and (max-width: 760px) {
   .hire_me__container {
     margin-bottom: 0px;
@@ -86,7 +77,11 @@
 @media only screen and (max-width: 550px) {
   .hire_me__container .text {
     font-size: 16px;
-    margin: 2vh;
+  }
+  .hire_me h1 {
+    margin: 3vmax;
+    transform: translateY(-80%);
+    font-size: 25px;
   }
   .hire_me__container .message {
     font-size: 14px;

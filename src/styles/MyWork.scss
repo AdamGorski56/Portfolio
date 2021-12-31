@@ -12,6 +12,7 @@
   position: relative;
   text-align: center;
   font-size: 40px;
+  margin: 3vh;
   top: 3vh;
   color: white;
   text-shadow: -1px -1px 1px rgb(3, 187, 3), -1px 1px 1px rgb(3, 187, 3),
@@ -25,6 +26,7 @@
   position: relative;
   width: 100%;
   height: auto;
+  margin-bottom: 3vh;
 }
 .my_work__slide_wrapper {
   position: relative;
@@ -61,12 +63,19 @@
 }
 .my_work__project_one .my_work__description {
   margin-right: 100px;
+  h2 {
+    width: 90%;
+  }
 }
+
 .my_work__project_one .my_work__two__image {
   margin-left: 100px;
 }
 .my_work__project_two .my_work__description {
   margin-left: 100px;
+  h2 {
+    width: 90%;
+  }
 }
 
 .my_work__description button {
@@ -218,7 +227,7 @@
 }
 .slick-prev {
   position: absolute;
-  left: 10vh;
+  left: 12vh;
   width: 60px;
   transform: scale(2);
   z-index: 100;
@@ -252,7 +261,14 @@
 @media only screen and (max-width: 960px) {
   .slick-prev,
   .slick-next {
-    display: none !important;
+    // display: none !important;
+    transform: scale(1) !important;
+  }
+  .slick-next {
+    right: 0vh;
+  }
+  .slick-prev {
+    left: 6vh;
   }
   .slick-dots li button {
     transform: scale(0.7);
@@ -267,5 +283,8 @@
   .slick-slide {
     position: relative;
     top: 0vh;
+  }
+  .slick-prev {
+    left: 0vh;
   }
 }
