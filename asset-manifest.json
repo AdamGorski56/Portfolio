@@ -1,29 +1,35 @@
 {
   "files": {
-    "main.css": "/static/css/main.0d5cfb17.chunk.css",
-    "main.js": "/static/js/main.11cd3cd1.chunk.js",
-    "main.js.map": "/static/js/main.11cd3cd1.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.61896848.js",
-    "runtime-main.js.map": "/static/js/runtime-main.61896848.js.map",
-    "static/js/2.70d197b2.chunk.js": "/static/js/2.70d197b2.chunk.js",
-    "static/js/2.70d197b2.chunk.js.map": "/static/js/2.70d197b2.chunk.js.map",
+    "main.css": "/static/css/main.3d43684f.chunk.css",
+    "main.js": "/static/js/main.34bc9637.chunk.js",
+    "main.js.map": "/static/js/main.34bc9637.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.2f11d993.js",
+    "runtime-main.js.map": "/static/js/runtime-main.2f11d993.js.map",
+    "static/css/2.0cdeb675.chunk.css": "/static/css/2.0cdeb675.chunk.css",
+    "static/js/2.e8802d3b.chunk.js": "/static/js/2.e8802d3b.chunk.js",
+    "static/js/2.e8802d3b.chunk.js.map": "/static/js/2.e8802d3b.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.0d5cfb17.chunk.css.map": "/static/css/main.0d5cfb17.chunk.css.map",
-    "static/js/2.70d197b2.chunk.js.LICENSE.txt": "/static/js/2.70d197b2.chunk.js.LICENSE.txt",
+    "static/css/2.0cdeb675.chunk.css.map": "/static/css/2.0cdeb675.chunk.css.map",
+    "static/css/main.3d43684f.chunk.css.map": "/static/css/main.3d43684f.chunk.css.map",
+    "static/js/2.e8802d3b.chunk.js.LICENSE.txt": "/static/js/2.e8802d3b.chunk.js.LICENSE.txt",
     "static/media/index.scss": "/static/media/Matrix-MZ4P.73260684.ttf",
     "static/media/cssimg.9a088dd1.png": "/static/media/cssimg.9a088dd1.png",
+    "static/media/giftShopPhoto.b2751ae3.jpg": "/static/media/giftShopPhoto.b2751ae3.jpg",
     "static/media/htmlimg.14b246e5.png": "/static/media/htmlimg.14b246e5.png",
     "static/media/hungryPhoto.d372383b.jpg": "/static/media/hungryPhoto.d372383b.jpg",
     "static/media/matrix3.c8ab8a56.mp4": "/static/media/matrix3.c8ab8a56.mp4",
+    "static/media/portfolioPhoto.934713c4.jpg": "/static/media/portfolioPhoto.934713c4.jpg",
     "static/media/reactimg.c2861c4d.png": "/static/media/reactimg.c2861c4d.png",
     "static/media/sassimg.95b95881.png": "/static/media/sassimg.95b95881.png",
+    "static/media/slick-theme.css": "/static/media/slick.c94f7671.ttf",
     "static/media/tennisPhoto.744b6860.jpg": "/static/media/tennisPhoto.744b6860.jpg",
     "static/media/webpackimg.7beebc22.jpg": "/static/media/webpackimg.7beebc22.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.61896848.js",
-    "static/js/2.70d197b2.chunk.js",
-    "static/css/main.0d5cfb17.chunk.css",
-    "static/js/main.11cd3cd1.chunk.js"
+    "static/js/runtime-main.2f11d993.js",
+    "static/css/2.0cdeb675.chunk.css",
+    "static/js/2.e8802d3b.chunk.js",
+    "static/css/main.3d43684f.chunk.css",
+    "static/js/main.34bc9637.chunk.js"
   ]
 }
